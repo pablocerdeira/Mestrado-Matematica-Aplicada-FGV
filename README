@@ -1,8 +1,8 @@
 
 README
-Este projeto contém exercícios que estão sendo desenvolvidos 
-(ou não) no curso preparatório para o Mestrado em Matemática 
-Aplicada da Escola de Matemática Aplicada da Fundação Getulio
+Este projeto cont√©m exerc√≠cios que est√£o sendo desenvolvidos 
+(ou n√£o) no curso preparat√≥rio para o Mestrado em Matem√°tica 
+Aplicada da Escola de Matem√°tica Aplicada da Funda√ß√£o Getulio
 Vargas.
 
 
@@ -10,29 +10,29 @@ AUTOR
 Pablo Cerdeira
 
 
-ORGANIZAÇÃO
-Os exercícios desenvolvidos em Python serão organizados dentro
-da pasta src/<nome-matéria>
+ORGANIZA√á√ÉO
+Os exerc√≠cios desenvolvidos em Python ser√£o organizados dentro
+da pasta src/<nome-mat√©ria>
 
 
-ATENÇÃO
-Não existe vinculação necessária entre o conteúdo aqui 
-disponibilizado e o conteúdo ministrado no Curso Preparatório 
-para o Mestrado em Matemática Aplicada da FGV.
+ATEN√á√ÉO
+N√£o existe vincula√ß√£o necess√°ria entre o conte√∫do aqui 
+disponibilizado e o conte√∫do ministrado no Curso Preparat√≥rio 
+para o Mestrado em Matem√°tica Aplicada da FGV.
 
-Trata-se apenas e tão somente de uma organização pessoal de 
-documentos de um dos alunos do Curso Preparatório, aqui 
-disponibilizados para minha própria comodidade.
+Trata-se apenas e t√£o somente de uma organiza√ß√£o pessoal de 
+documentos de um dos alunos do Curso Preparat√≥rio, aqui 
+disponibilizados para minha pr√≥pria comodidade.
 
-Entretanto, seu conteúdo é de acesso livre (como tudo no gitHub).
+Entretanto, seu conte√∫do √© de acesso livre (como tudo no gitHub).
 
 
-EXERCÍCIOS DISPONÍVEIS
+EXERC√çCIOS DISPON√çVEIS
 
-Diretório: 	src/introAlgLinear
-Nome: 		Introdução à Álgebra Linear
-Referência:	Santos, Reginaldo J. Introdução à Álgebra Linear, 
-			Belo Horizonte, Imprensa universitária da UFMG, 2009
-Disponível:	http://books.google.com/books?id=3i2cOt6lFQ0C&printsec=frontcover&source=gbs_atb#v=onepage&q&f=true
+Diret√≥rio: 	src/introAlgLinear
+Nome: 		Introdu√ß√£o √† √Ålgebra Linear
+Refer√™ncia:	Santos, Reginaldo J. Introdu√ß√£o √† √Ålgebra Linear, 
+			Belo Horizonte, Imprensa universit√°ria da UFMG, 2009
+Dispon√≠vel:	http://books.google.com/books?id=3i2cOt6lFQ0C&printsec=frontcover&source=gbs_atb#v=onepage&q&f=true
 
 
