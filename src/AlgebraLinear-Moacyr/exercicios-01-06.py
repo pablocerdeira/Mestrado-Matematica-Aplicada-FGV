@@ -5,6 +5,10 @@ from sympy.matrices import *
 from random import *
 import sys
 sys.displayhook(pprint)
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+
 
 print '''
 ****************************************************************************
@@ -17,15 +21,31 @@ registrados. O algoritmo do pacote tem complexidade inferior a O(nˆ3)?
 def random_ints(num, lower=-100, upper=100):
     return [randrange(lower,upper+1) for i in range(num)]
 
-def geraMatriz(n):
-    return Matrix(n, n, random_ints(n**2))
+def geraMatriz(n, l=-100, u=100):
+    return Matrix(n, n, random_ints(n**2, l, u))
 
-A = geraMatriz(5)
-print A
+tempoGeracao = {}
+tempoDeterminante = {}
+for n in range(4,12):
+    
+    ''' Contagem de tempo para criação das matrizes '''
+    t0 = time.time()
+    A = geraMatriz(2**n,-100,100)
+    tt = time.time() - t0
+    tempoGeracao[2**n] = tt
+    print "Tempo de geração das matrizes:"
+    print tempoGeracao 
 
-A = geraMatriz(6)
-print A
+    ''' Contagem de tempo para cálculo do determinante '''
+    t0 = time.time()
+    detA = A.det()
+    tt = time.time() - t0
+    tempoDeterminante[2**n] = tt
+    print "Tempo de cálculo dos determinantes:"
+    print tempoDeterminante 
+    
+plt.plot(tempoGeracao.keys(),tempoGeracao.values())
+plt.plot(tempoDeterminante.keys(),tempoDeterminante.values(), "r")
+plt.yscale('log')
 
-A = geraMatriz(7)
-print A
-
+plt.show()
