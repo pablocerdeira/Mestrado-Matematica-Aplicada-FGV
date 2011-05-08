@@ -26,7 +26,7 @@ def geraMatriz(n, l=-100, u=100):
 
 tempoGeracao = {}
 tempoDeterminante = {}
-for n in range(4,12):
+for n in range(4,11):
     
     ''' Contagem de tempo para criação das matrizes '''
     t0 = time.time()
